@@ -3,6 +3,8 @@ import java.util.Arrays;
 
 class MedianOfSortedArrays {
 
+
+    // Runtime of O(max(m,n)) 
     public static double findMedianSortedArrays(int[] A, int[] B) {
 
         int m = A.length;
